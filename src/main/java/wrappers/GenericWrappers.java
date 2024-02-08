@@ -44,7 +44,8 @@ public static Properties prop;
 	{
 		
 			 try {
-				prop = new Properties();
+				  prop = new Properties();
+				
 				prop.load(new FileInputStream("./src/test/java/object.properties"));
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
@@ -999,6 +1000,7 @@ public static Properties prop;
 		try {
 			
 			snapNumber = (long) (Math.floor(Math.random()*100000000)+10000);
+			
 				File temp = driver.getScreenshotAs(OutputType.FILE);
 				File dest = new File("./reports/screenshots/"+snapNumber+".png");
 				//FileUtils.copyDirectory(temp, dest);

@@ -7,11 +7,12 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
 
 public class TestDataProvider {
 	
-	//@Test
-	//@DataProvider(name="fetchData")
+//	@Test
+	@DataProvider(name="fetchData")
 	public static String[][] getData(String sheetName) {
 		
 		

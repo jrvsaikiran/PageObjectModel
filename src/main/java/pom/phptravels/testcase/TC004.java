@@ -22,7 +22,7 @@ public class TC004 extends ProjectWrappers{
 	
 	@Test(dataProvider="fetchData")
 	
-	public void gfhgfhh4354 (String firstname, String lastname
+	public void ju78 (String firstname, String lastname
 			,String email , String phone,
 			String company, String address1
 			,String address2, String city,

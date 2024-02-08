@@ -24,7 +24,7 @@ public class TC003  extends ProjectWrappers{
 	
 	
 	@Test (dataProvider="fetchData")
-	public void ghyurerg421(String pan_title, String pan_firstname, String pan_middlename, String pan_lastname,
+	public void dff878686(String pan_title, String pan_firstname, String pan_middlename, String pan_lastname,
 			String pan_fatherfirstname, String pan_fathermiddlename, String pan_fatherlastname, String pan_mobilenumber,
 			String pan_email, String pan_sourceofincome, String pan_dob, String buldnumber,
 			String pan_addressline1, String pan_addressline2, String state, String country, String pincode,

@@ -25,7 +25,7 @@ public class TC007 extends ProjectWrappers{
 	
 	@Test(dataProvider="fetchData")
 	
-	public void tmpqaz401(String name, String organisation, String address,
+	public void ghy77(String name, String organisation, String address,
 			String mobile, String email, String request,
 			String orgstation, String destination,
 			String year1, 

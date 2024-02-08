@@ -1,6 +1,6 @@
 package utils;
 
-import org.testng.annotations.Test; 
+import org.testng.annotations.Test;  
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -25,7 +25,8 @@ public abstract class Reporting {
 		
 		
 		public void startTest(String testName, String description) {
-			 test = report.startTest(testName, description);
+			 
+			test = report.startTest(testName, description);
 			 test.assignAuthor(author);
 			 test.assignCategory(catogory);
 		}

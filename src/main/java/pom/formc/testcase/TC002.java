@@ -22,7 +22,7 @@ public class TC002 extends ProjectWrappers{
 	}
 	@Test (dataProvider="fetchData")
 	
-	public void  vbfgbgfb6760(String u_id, String pass, String rpass , String seququestion , String u_secans,String u_name,
+	public void  rtrt5657(String u_id, String pass, String rpass , String seququestion , String u_secans,String u_name,
 			String u_gender,
 			String u_dob, String u_designation,String u_emailid, String u_mobile, String u_phone,
 			String u_nationality, String name, String capacity, String address,  String state, String city_distr, 
