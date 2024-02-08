@@ -13,9 +13,10 @@ public class LoginPage extends GenericWrappers{
 		this.test = test;
 	}
 	
-
+ 
 	public LoginPage clickOnEnglish() {
 		clickByXpath(prop.getProperty("LoginPage.clickOnEnglish.xpath"));
+			
 		return this;
 	}
 	public SignUpPage clickOnCreatNewAccount() {

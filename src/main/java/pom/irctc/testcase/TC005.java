@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pom.irctc.pages.CovidAlertPage;
+//import pom.irctc.pages.CovidAlertPage;
 import wrappers.ProjectWrappers;
 
 public class TC005 extends ProjectWrappers {
@@ -23,7 +24,10 @@ public class TC005 extends ProjectWrappers {
 	
 	
 @Test (dataProvider="fetchData")
-	public void gotyhweq1246( String id, String pass, String conpss,String squque,
+
+//@Test(priority=1, enabled = true, dataProvider="")
+
+	public void dfrt56ty( String id, String pass, String conpss,String squque,
 			String sqans,String year,String month,
 			String day,String gender, String status,
 			String email,String occupation,String fname,
